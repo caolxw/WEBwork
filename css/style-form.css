@@ -1,0 +1,27 @@
+body{
+	background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1496152651416&di=1b146060be19c5ec018a2de4e2344785&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F92%2F16%2F16q58PICCG6_1024.jpg);  
+  	background-repeat: no-repeat;  
+  	background-size: 100% 100%; 
+}
+
+#form{
+	width: 980px;
+	padding: 0 140px;
+}
+#title .grid_1 a{
+	color: #000;
+}
+#title .grid_1 a:hover{
+	color: #999;
+}
+fieldset{
+	background-color: #ff9;
+	margin: 
+}
+
+.form_head{
+	font-family: '微软雅黑';
+	float: center;
+	letter-spacing: 3px;
+	color: #fff;
+}

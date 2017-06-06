@@ -1,0 +1,43 @@
+body{
+	background-color: #fff;
+}
+#listpage{
+	background-size: cover;
+	width: 1000px;
+	padding: 0 140px;
+	font-family: Verdana, Arial, '宋体'
+}
+.form_head{
+	font-family: '微软雅黑';
+	font-size: 35px;
+	letter-spacing: 5px;
+}
+
+table th, td{
+	text-align: left;
+}
+table th{
+	background: url("../img/result1.png") no-repeat 0 -46px;
+	padding-left: 25px;
+}
+a{
+	text-decoration:none;
+}
+
+.more a{
+	color: #000;
+}
+
+.more{
+	text-align: right;
+}
+
+#last {
+	background-color: #ccc;
+	color: #fff;
+	font-family: STXingkai ;
+	text-align: center;
+}
+#last :hover{
+	color: #B22222;
+}
