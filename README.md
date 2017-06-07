@@ -39,7 +39,7 @@ WEB期末作业
 主要代码：
 **html代码**
 
-   ` 
+   ``` 
    <div class="slider">
   <div class="slider-img">
     <ul class="slider-img-ul">
@@ -50,10 +50,11 @@ WEB期末作业
       <li><img src="./img/imagesslider-1.jpg"></li>
     </ul>
   </div>
-</div> ` 
+</div> 
+```
 
 **css代码**
-`
+```
     .slider {
     width: 1200px;
     margin: 50px auto;
@@ -121,15 +122,18 @@ WEB期末作业
 .slider .slider-btn.slider-btn-right {
     right: 0;
     margin-top: -50px;
-}   `
+}   
+```
 **敲代码的时候一定不能忘了引入jquery和xSlider.js文件**
 
  3. 插入视频：运用HTML5可以插入视频。使用`embed`标记使用外部链接，可以链接优酷等视频网站。
  **例如：**
-` <div class="grid_4">
+```
+ <div class="grid_4">
 		<embed src="http://video.sina.com.cn/share/video/251070522.swf" 
     controls=playbutton width="100%" type="application/x-shockwave-flash"></embed>
-	</div> `
+	</div> 
+	```
 
  
 
