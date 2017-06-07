@@ -126,21 +126,61 @@ WEB期末作业
 ```
 **敲代码的时候一定不能忘了引入jquery和xSlider.js文件**
 
- 3. 插入视频：运用HTML5可以插入视频。使用`embed`标记使用外部链接，可以链接优酷等视频网站。
- **例如：**
+ 3. 使用雪碧图：在列表页使用了雪碧图中的一个图。
+ **设置代码：**
+ ```
+ table th{
+	background: url("../img/result1.png") no-repeat 0 -46px;
+	padding-left: 25px;
+}
 ```
- <div class="grid_4">
-		<embed src="http://video.sina.com.cn/share/video/251070522.swf" 
-    controls=playbutton width="100%" type="application/x-shockwave-flash"></embed>
-	</div> 
-	```
+4. 下拉菜单 ： 使用pure在首页球队设置下拉菜单，通过这种方式罗列出了所有的西甲球队。
 
- 
+ **主要代码：**
+ ```
+ <div class="pure-menu pure-menu-horizontal">
+	    <ul class="pure-menu-list">
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">巴塞罗那</div></li>
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">皇家马德里</div></li>
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">马德里竞技</div></li>
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">皇家贝蒂斯</div></li>
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">瓦伦西亚</div></li>
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">塞维利亚</div></li>
+			<li class="pure-menu-item pure-menu-selected"><div class="grid_2">皇家社会</div></li>
+			<li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+				<a href="#" id="menuLink1" class="pure-menu-link">更多</a>
+				<ul class="pure-menu-children">
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">毕尔巴鄂</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">马拉加</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">西班牙人</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">塞尔塔</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">拉科鲁尼亚</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">格拉纳达</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">希洪竞技</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">埃瓦尔</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">阿拉维斯</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">莱加内斯</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">奥萨苏纳</a></li>
+	                <li class="pure-menu-item"><a href="#" class="pure-menu-link">拉斯帕尔马斯</a></li>
+            </ul>
+            </li>
+		</ul>
+	</div>
+```
+在html的开头需要引用
+```
+<link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+```
+才可以达成效果。
 
 
 ----------
 ## 开发心得：
 开发过程遇到的问题并不算多，因为这个网站做的十分简单。这次布局方面运用了大量的栅栏布局，也确实简单方便实用。这门课程要求极强的操作能力，平时也需要多搞搞电脑。我这方面的能力也比较弱，需要多加强。平时我应该多看看网上优秀的网页，学习网页的布局和搭配。我希望能学习的更深入，学习javascripe使得网页可以更加多元化。
+### 开发心得（后续）
+在周三展示之前，在我的电脑上看了很多遍这个网站的所有网页，但是在演示的时候还是出了一些问题。
+- 屏幕大小的问题，导致在大屏幕的电脑上看到的页面左偏，没有置中。在css样式大框架当中加入``` margin :0 auto; ```可以解决这个问题。 
+- 图片较多，运行速度慢，这个应该做一下优化。（但是我不会...）
 
 
   [1]: index.html
